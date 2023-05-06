@@ -1,5 +1,5 @@
 import pymysql
-
+# aqui teriam constantes com credenciais do banco mais foram removidas!
 class MySQLDatabase:
     def __init__(self, host, user, password, database):
         self.host = host
